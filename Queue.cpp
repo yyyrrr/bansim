@@ -64,7 +64,7 @@ bool Queue::dequeue(Item & item)
 	Node* temp = front;
 	front = front->next;
 	delete temp;
-	if (items = 0)
+	if (items == 0)
 		rear = NULL;
 	return true;
 }
